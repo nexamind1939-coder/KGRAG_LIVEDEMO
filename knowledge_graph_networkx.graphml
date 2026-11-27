@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relationship" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Vikram Rao">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Ananya Sharma">
+      <data key="d0">Person</data>
+    </node>
+    <node id="India">
+      <data key="d0">Company</data>
+    </node>
+    <node id="50 Mw Microgrid Project">
+      <data key="d0">Project</data>
+    </node>
+    <node id="Karnataka">
+      <data key="d0">Location</data>
+    </node>
+    <edge source="Vikram Rao" target="India">
+      <data key="d1">WORKS_AT</data>
+    </edge>
+    <edge source="Vikram Rao" target="Ananya Sharma">
+      <data key="d1">REPORTS_TO</data>
+    </edge>
+    <edge source="50 Mw Microgrid Project" target="Karnataka">
+      <data key="d1">LOCATED_IN</data>
+    </edge>
+  </graph>
+</graphml>

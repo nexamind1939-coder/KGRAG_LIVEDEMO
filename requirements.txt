@@ -1,0 +1,8 @@
+langchain
+langchain-openai
+langchain-community
+langchain-neo4j
+neo4j
+python-dotenv 
+python -c "import ssl; print(ssl.OPENSSL_VERSION); print(ssl.get_default_verify_paths())"
+python -m pip show certifi

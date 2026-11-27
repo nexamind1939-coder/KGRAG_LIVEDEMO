@@ -179,3 +179,30 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Automatically detect text files
+* text=auto
+
+# Python files use LF
+*.py text eol=lf
+
+# Markdown files use LF
+*.md text eol=lf
+
+# Environment and configuration files
+*.env text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.pdf binary
+*.graphml text eol=lf
+
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
